@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZulmArts | Landing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header-logo"></header>
+
+<nav class="menu-band">
+  <div class="wrap">
+    <div class="nav nav-center">
+      <a href="#productos">Productos</a>
+      <a href="#video">Video</a>
+      <a href="#contacto" class="nav-btn">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <main class="wrap">
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="section">
+      <h2>Nuestros productos</h2>
+      <p class="muted">Explora algunos ejemplos (con precios de referencia).</p>
+
+      <div class="gallery">
+
+        <article class="card">
+          <img src="assets/bolso.jpg" alt="Bolso personalizado">
+          <div class="card-body">
+            <h3>Bolso personalizado</h3>
+            <p class="desc">Diseños únicos para regalar o usar diario.</p>
+            <p class="price">$18.99</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/camiseta-rosa.jpg" alt="Camiseta personalizada rosa">
+          <div class="card-body">
+            <h3>Camiseta personalizada</h3>
+            <p class="desc">Ideal para ocasiones especiales y regalos.</p>
+            <p class="price">$15.00</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/camisetas-coleccion.jpg" alt="Colección de camisetas">
+          <div class="card-body">
+            <h3>Colección de camisetas</h3>
+            <p class="desc">Variedad de colores y estilos.</p>
+            <p class="price">Desde $15.00</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/cover-celular.jpg" alt="Cover para celular">
+
+          <div class="card-body">
+            <h3>Cover para celular</h3>
+            <p class="desc">Diseños creativos y personalizados.</p>
+            <p class="price">$12.00</p>
+          </div>
+        </article>
+
+        <!-- Libretas (con recorte especial para que no se vea rara) -->
+        <article class="card special-img">
+          <img src="assets/libretas.jpg" alt="Libretas Promesa de Dios para ti">
+          <div class="card-body">
+            <h3>Libretas “Promesa de Dios”</h3>
+            <p class="desc">Detalles pequeños, bonitos y especiales.</p>
+            <p class="price">$6.99</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video" class="section">
+      <h2>Video promocional</h2>
+      <p class="muted">Contenido multimedia local (guardado dentro del proyecto).</p>
+
+      <div class="media">
+        <video controls muted playsinline preload="auto">
+          <source src="assets/promo.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+      <div class="video-desc">
+
+        <div class="media">
+        <video controls muted playsinline preload="auto">
+          <source src="assets/promo2.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+      <div class="video-desc">
+
+  <h3>Descripción del video</h3>
+  <p>
+    En este video se muestran libretas artesanales personalizadas de ZulmArts. Se aprecian los diseños,
+    tamaños y detalles del producto, resaltando que son ideales para regalos y ocasiones especiales.
+  </p>
+</div>
+
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <p class="muted">Escríbenos para cotizaciones y pedidos personalizados.</p>
+
+      <form class="form" onsubmit="return false;">
+        <label>
+          Nombre
+          <input type="text" placeholder="Tu nombre" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" placeholder="tucorreo@email.com" required>
+        </label>
+
+        <label>
+          Mensaje
+          <textarea rows="4" placeholder="¿Qué te gustaría personalizar?" required></textarea>
+        </label>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (banda de lado a lado) -->
+  <footer class="band footer-band">
+    <div class="wrap footer-wrap">
+      <p>© 2026 ZulmArts. Todos los derechos reservados.</p>
+      <p class="small">Landing Page (HTML + CSS + multimedia).</p>
+    </div>
+  </footer>
+
+</body>
+</html>
